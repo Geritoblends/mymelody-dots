@@ -1,0 +1,50 @@
+* {
+	background-image: none;
+	box-shadow: none;
+    color: red;
+}
+
+window {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+button {
+    border-radius: 999px;
+	text-decoration-color: #FFFFFF;
+    color: #FFFFFF;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+    border: none;
+}
+
+button:focus, button:active {
+	outline-style: none;
+    box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.5);
+}
+
+#lock {
+    background-image: image(url("/home/gero/.config/wlogout/res/lock_red.png"), url("/home/gero/.config/wlogout/res/lock_red.png"));
+    color: red;
+}
+
+#logout {
+    background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+    background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/gero/.config/wlogout/res/shutdown_red.png"), url("/home/gero/.config/wlogout/res/shutdown_red.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/gero/.config/wlogout/res/reboot_red.png"), url("/home/gero/.config/wlogout/res/reboot_red.png"));
+}
